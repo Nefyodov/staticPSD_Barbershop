@@ -42,29 +42,38 @@ h2 {
     float: left;
 }
 
+.main-navigation li:hover {
+    background-color: #242424;
+}
+
 .main-header a {
     text-decoration: none;
     color: #ffffff;
     display: block;
-    margin-left: 40px;
+    width: 80px;
     text-align: center;
     line-height: 70px;
 }
 
 .login {
     float: right;
-    height: 20px;
+    height: 70px;
+    width: 100px;
+    padding-left: 10px;
 }
 
 .login:before {
     content: "";
     display: block;
     background: url("../images/login.png") no-repeat;
-    width: 20px;
+    width: 30px;
     height: 20px;
     float: left;
     margin-top: 27px;
-    padding-right: 10px;
+}
+
+.login:hover {
+    background-color: #242424;
 }
 
 .index-logo {
@@ -74,9 +83,14 @@ h2 {
 }
 
 .features {
+    width: 940px;
     color: #ffffff;
-    margin-top: 25px;
-    margin-bottom: 83px;
+    margin: 25px auto 83px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
 }
 
 .features:after {
@@ -88,18 +102,15 @@ h2 {
 
 .features-item-pos1 {
     width: 252px;
-    float: left;
 }
 
 .features-item-pos2 {
     width: 270px;
-    float: left;
     margin-left: 60px;
 }
 
 .features-item-pos3 {
     width: 284px;
-    float: right;
 }
 
 .features-item p {
@@ -122,12 +133,14 @@ h2 {
     display: block;
     margin: 23px auto 34px;
     border-radius: 2px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .index-content {
     width: 940px;
-    margin-bottom: 34px;
+    margin: 0 auto 34px;
     height: 430px;
     background: url("../images/noise-bg.png");
 }
@@ -226,6 +239,72 @@ time {
 }
 
 .main-footer {
+    color: #ffffff;
     height: 190px;
     background: url("../images/footer-bg.png");
+}
+
+.main-footer .container {
+    height: 80px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-footer > .btn {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer-contacts,
+.footer-social,
+.footer-copyright {
+    vertical-align: middle;
+    margin-top: 60px;
+    line-height: 24px;
+}
+
+.footer-social,
+.footer-copyright {
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-btn-vk {
+    font-size: 0;
+    height: 0;
+    width: 0;
+    padding: 20px 20px;
+    margin: 3px 3px;
+    background: #000000 url("../images/v.svg") no-repeat center;
+}
+
+.social-btn-fb {
+    font-size: 0;
+    height: 0;
+    width: 0;
+    padding: 20px 20px;
+    margin: 3px 3px;
+    background: #000000 url("../images/f.svg") no-repeat center;
+}
+
+.social-btn-inst {
+    font-size: 0;
+    height: 0;
+    width: 0;
+    padding: 20px 20px;
+    margin: 3px 3px;
+    background: #000000 url("../images/inst.svg") no-repeat center;
+}
+
+.main-footer p {
+    margin: 0 0 20px;
+}
+
+.main-footer a {
+    color: #ffffff;
+    margin: 0;
 }
