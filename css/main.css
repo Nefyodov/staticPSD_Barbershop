@@ -1,0 +1,109 @@
+body {
+    background: #242424 url("../images/background.jpg") no-repeat;
+    border-left: 4px solid #242424;
+    width: 2560px;
+    height: 1762px;
+    -moz-font: bold 14px "PT Sans Narrow", "PT Sans", sans-serif;
+    -webkit-font: bold 14px "PT Sans Narrow", "PT Sans", sans-serif;
+    font: bold 14px "PT Sans Narrow", "PT Sans", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+.main-header {
+    width: inherit;
+    height: 70px;
+    border-left: none;
+    background-color: #000000;
+    color: #ffffff;
+}
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-navigation li {
+    display: inline-block;
+    float: left;
+}
+.main-header a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 70px;
+}
+.login {
+    float: right;
+    height: 20px;
+}
+.login:before{
+    content: "";
+    display: block;
+    background: url("../images/login.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 27px;
+    padding-right: 10px;
+}
+.index-logo {
+    margin-top: 59px;
+    display: block;
+    text-align: center;
+}
+.features {
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 83px;
+}
+.features:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.features-item-pos1 {
+    width: 252px;
+    float: left;
+}
+.features-item-pos2 {
+    width: 270px;
+    float: left;
+    margin-left: 60px;
+}
+.features-item-pos3 {
+    width: 284px;
+    float: right;
+}
+.features-item p {
+    height: 60px;
+}
+.features-item {
+    display:block;
+    text-align: center;
+}
+.feature-name {
+    font-size: 30px;
+}
+.offset-marker {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    display: block;
+    margin: 23px auto 34px;
+    border-radius: 2px;
+    transform: rotate(45deg);
+}
+.index-content {
+    height: 430px;
+    background: url("../images/noise-bg.png");
+}
+.main-footer {
+    height: 190px;
+    background: url("../images/footer-bg.png");
+}
