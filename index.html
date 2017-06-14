@@ -48,7 +48,7 @@
         </div>
     </section>
     <div class="index-content">
-        <div class="index-content-left">
+        <div class="index-content-block index-content-left">
             <h2 class="index-content-title">Новости</h2>
             <ul class="news-preview">
                 <li>
@@ -61,12 +61,13 @@
                     <time datetime="2016-01-18">18 января</time>
                 </li>
             </ul>
+            <a href="#" class="btn">Все новости</a>
         </div>
-        <div class="index-content-right">
+        <div class="index-content-block">
             <h2 class="index-content-title">Фотогалерея</h2>
             <div class="gallery">
                 <figure class="gallery-content">
-                    <img src="img/photo-1.jpg" alt="" width="286" height="164">
+                    <img src="images/foto1.jpg" alt="" width="286" height="164">
                 </figure>
             </div>
             <button class="btn gallery-prev">Назад</button>
@@ -74,7 +75,7 @@
         </div>
     </div>
     <div class="index-content">
-        <div class="index-content-left">
+        <div class="index-content-block index-content-left">
             <h2 class="index-content-title">Контактная информация</h2>
             <p>
                 Барбершоп "Бородинский"<br>
@@ -89,17 +90,17 @@
             <a href="#" class="btn">Как проехать</a>
             <a href="#" class="btn">Обратная связь</a>
         </div>
-    </div>
-    <div class="index-content-right">
-        <h2 class="index-content-title">Записаться</h2>
-        <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-        <form action="#" class="appointment-form" method="post">
-            <input type="text" name="date" value="" placeholder="Дата">
-            <input type="text" name="time" value="" placeholder="Время">
-            <input type="text" name="name" value="" placeholder="Ваше имя">
-            <input type="tel" name="phone" value="" placeholder="Телефон">
-            <button class="btn" type="submit">Отправить</button>
-        </form>
+        <div class="index-content-block">
+            <h2 class="index-content-title">Записаться</h2>
+            <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+            <form action="#" class="appointment-form" method="post">
+                <input type="text" name="date" value="" placeholder="Дата">
+                <input type="text" name="time" value="" placeholder="Время">
+                <input type="text" name="name" value="" placeholder="Ваше имя">
+                <input type="tel" name="phone" value="" placeholder="Телефон">
+                <button class="btn submit" type="submit">Отправить</button>
+            </form>
+        </div>
     </div>
 </main>
 <footer class="main-footer">
